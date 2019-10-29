@@ -42,7 +42,7 @@ header {
     margin-right: 12px;
 }
 #header-bottom {
-    height: 65px;
+    height: 90px;
     padding: 0 15px;
     line-height: 40px;
     font-size: 14px;
@@ -79,13 +79,13 @@ header {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    line-height: 65px;
+    line-height: 90px;
     padding: 10px 10px;
 }
 #top-hamburger {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 65px;
+    line-height: 90px;
 }
 /* end styling header */
 
@@ -97,7 +97,7 @@ header {
         display: none;
     }
     #header-bottom {
-        height: 90px;
+        height: 65px;
     }
     #logo-missing {
         background-color: transparent;
