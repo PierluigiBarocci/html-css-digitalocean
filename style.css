@@ -89,6 +89,24 @@ header {
 }
 /* end styling header */
 
+/* styling my-jumbo */
+#my-jumbo {
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    color: white;
+}
+#my-jumbo h1 {
+    font-size: 62px;
+    font-weight: 700;
+}
+#my-jumbo p {
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+/* end styling my-jumbo */
 @media screen and (min-width: 1024px) {
     .show-md {
         display: block;
