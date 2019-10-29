@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+}
+/* styling header */
+header {
+    height: 105px;
+    background-color: grey;
+}
+
+#header-top {
+    height: 40px;
+    padding: 0 15px;
+    border-bottom: 1px solid rgb(229, 232, 237);
+    line-height: 40px;
+    font-size: 12px;
+}
+#header-top a {
+    color: rgba(3, 27, 78, 0.7);
+    font-weight: bold;
+    margin-right: 12px;
+}
+#header-top a:hover {
+    text-decoration: none;
+    color: #0069ff;
+}
+#header-top-btn {
+    background-color: #00d7d2;
+    border-radius: 5px;
+    color: #031b4e;
+    line-height: 1;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 9px;
+    border: none;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+#header-bottom {
+    height: 65px;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 14px;
+}
+#header-bottom a {
+    color: rgb(3, 27, 78);
+    margin-right: 15px;
+}
+#header-bottom-btn {
+    background-color: transparent;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    cursor: pointer;
+    padding: 11px 16px 8px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#header-bottom a:hover {
+    text-decoration: none;
+}
+#header-bottom .header-items:hover {
+    color: #0069ff;
+}
+#header-bottom-btn:hover {
+    background-color: #0069ff;
+    color: white;
+    transition: 0.25s;
+}
+#logo-missing {
+    background-color: transparent;
+    color: #0069ff;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#top-hamburger {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* end styling header */
+
+@media screen and (min-width: 1024px) {
+
+    #header-bottom {
+        height: 90px;
+    }
+}
