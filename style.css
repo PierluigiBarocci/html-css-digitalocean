@@ -1,10 +1,16 @@
 a {
     text-decoration: none;
 }
+.show-md {
+    display: none;
+}
+.hidden-lg {
+    display: block;
+}
 /* styling header */
+
 header {
-    height: 105px;
-    background-color: grey;
+    background-color: blue;
 }
 
 #header-top {
@@ -51,9 +57,9 @@ header {
     border-radius: 5px;
     color: #0069ff;
     cursor: pointer;
-    padding: 11px 16px 8px;
     font-weight: bold;
     vertical-align: middle;
+    padding: 11px 16px 8px;
 }
 #header-bottom a:hover {
     text-decoration: none;
@@ -68,22 +74,40 @@ header {
 }
 #logo-missing {
     background-color: transparent;
-    color: #0069ff;
-    border: 1px solid #0069ff;
+    color: white;
+    border: 1px solid white;
     border-radius: 5px;
-    padding: 10px 10px;
     font-weight: bold;
     cursor: pointer;
+    line-height: 65px;
+    padding: 10px 10px;
 }
 #top-hamburger {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 65px;
 }
 /* end styling header */
 
 @media screen and (min-width: 1024px) {
-
+    .show-md {
+        display: block;
+    }
+    .hidden-lg {
+        display: none;
+    }
     #header-bottom {
         height: 90px;
+    }
+    #logo-missing {
+        background-color: transparent;
+        color: #0069ff;
+        border: 1px solid #0069ff;
+        line-height: 40px;
+    }
+    /* da cambiare in transaparent */
+    header {
+        height: 105px;
+        background-color: white;
     }
 }
