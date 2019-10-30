@@ -253,7 +253,71 @@ header {
 }
 /* end Styling Deploy */
 
+/* Styling Designed */
+#designed {
+    padding: 80px 0;
+    color: rgb(85, 85, 85);
+}
+#designed p {
+    font-size: 22px;
+    padding: 0 15px;
+    opacity; 0.8;
+}
+#designed p small {
+    font-size: 18px;
+}
+#designed img {
+    max-height: 478px;
+    padding: 0 50px;
+}
+#scroll-img {
+    margin: 35px 0;
+    position: relative;
+}
 
+.dot-point {
+    border: 2px solid #0069ff;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.list-unstyled.list-inline .dot-point:first-child {
+    background-color: #0069ff;
+}
+#designed .list-unstyled.list-inline {
+    margin-top: 30px;
+}
+
+#scroll-img .my-personal-arrow.left.show-arrow,
+#scroll-img .my-personal-arrow.right.show-arrow {
+    display: none;
+}
+.my-personal-arrow {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    opacity: 0.3;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.my-personal-arrow.left {
+    left: 1px;
+}
+.my-personal-arrow.right {
+    color: #031b4e;
+    right: 1px;
+    opacity: 1;
+}
+.my-personal-arrow.right:hover {
+    color: #0069ff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#scroll-img div {
+    display: inline-block;
+}
+/* end styling designed */
 
 
 /* @media query */
@@ -286,6 +350,10 @@ header {
         height: 22px;
         vertical-align: -webkit-baseline-middle;
     }
+    #scroll-img .my-personal-arrow.left.show-arrow,
+    #scroll-img .my-personal-arrow.right.show-arrow {
+        display: inline-block;
+    }
 }
 @media screen and (min-width: 769px) {
     #my-jumbo h1 {
@@ -300,7 +368,6 @@ header {
         height: 36px;
         vertical-align: -webkit-baseline-middle;
     }
-
 }
 @media screen and (min-width: 1049px) {
     .show-md {
