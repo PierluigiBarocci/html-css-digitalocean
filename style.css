@@ -358,19 +358,29 @@ header {
 }
 #service {
     padding: 80px 0;
-    background-image: url('https://wallpaperbro.com/img/57131.jpg');
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
+    background-color: rgb(3, 27, 78);
 }
 #service h2 {
     color: white;
     font-size: 36px;
-    text-shadow: 2px 2px black; 
 }
 /* end styling Service */
 
-
+/* Styling tables */
+.primo-td.text-left.my-no-bord,
+.second-td.text-left.my-no-bord,
+.link-td.text-right.my-no-bord {
+    border-top: none;
+}
+.second-td {
+    color: white;
+    opacity: 0.6;
+}
+.primo-td {
+    color: white;
+    font-weight: bold;
+}
+/* end styling tables */
 
 /* @media query */
 @media screen and (min-width: 321px) {
