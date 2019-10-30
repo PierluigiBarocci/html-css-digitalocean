@@ -351,6 +351,25 @@ header {
 }
 /* end styling built */
 
+/* Styling Service */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+#service {
+    padding: 80px 0;
+    background-image: url('https://wallpaperbro.com/img/57131.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+#service h2 {
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px black; 
+}
+/* end styling Service */
+
 
 
 /* @media query */
