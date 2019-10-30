@@ -25,6 +25,9 @@ h2 {
 .navbar-fixed-top {
     position: absolute;
 }
+.background-grey {
+    background-color: #f3f5f9;
+}
 
 /* styling header */
 
@@ -167,6 +170,77 @@ header {
     margin-left: 10px;
 }
 /* end styling my-jumbo */
+
+/* styling innovative */
+#img-innovative img {
+    height: 58px;
+    display: inline-block;
+    margin: 0 20px;
+}
+#img-innovative {
+    padding: 30px 0;
+}
+#innovative {
+    padding: 70px 0;
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-weight: bold;
+}
+#innovative a {
+    color: #0069ff;
+}
+#innovative a:hover {
+    text-decoration: none;
+}
+#img-innovative img:last-child {
+    max-height: 33px;
+    vertical-align: -webkit-baseline-middle;
+}
+/* end styling innovative */
+@media screen and (min-width: 321px) {
+    .btn.btn-default.my-sign-button span {
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 375px) {
+    #img-innovative img {
+        height: 64px;
+    }
+    #img-innovative img:last-child {
+        height: 40px;
+        vertical-align: -webkit-baseline-middle;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    #my-jumbo {
+        background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+    #img-innovative img {
+        height: 46px;
+    }
+    #img-innovative img:last-child {
+        height: 22px;
+        vertical-align: -webkit-baseline-middle;
+    }
+}
+@media screen and (min-width: 769px) {
+    #my-jumbo h1 {
+        font-size: 62px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #img-innovative img {
+        height: 65px;
+    }
+    #img-innovative img:last-child {
+        height: 36px;
+        vertical-align: -webkit-baseline-middle;
+    }
+}
 @media screen and (min-width: 1049px) {
     .show-md {
         display: block;
@@ -197,21 +271,13 @@ header {
         margin-left: 10px;
     }
 }
-@media screen and (min-width: 769px) {
-    #my-jumbo h1 {
-        font-size: 62px;
+
+@media screen and (min-width: 1200px) {
+    #img-innovative img {
+        height: 77px;
     }
-}
-@media screen and (min-width: 768px) {
-    #my-jumbo {
-        background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
-        background-position: center;
-        background-repeat: none;
-        background-size: cover;
-    }
-}
-@media screen and (min-width: 321px) {
-    .btn.btn-default.my-sign-button span {
-        margin-left: 30px;
+    #img-innovative img:last-child {
+        height: 36px;
+        vertical-align: -webkit-baseline-middle;
     }
 }
