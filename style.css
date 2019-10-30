@@ -205,9 +205,7 @@ header {
 #deploy {
     padding: 80px 0;
 }
-.my-container {
-    padding: 0 100px;
-}
+
 #deploy i {
     font-size: 40px;
     color: #0069ff;
@@ -218,14 +216,17 @@ header {
     opacity: 0.8;
 }
 
-#deploy .col-sm-4 {
-    padding: 30px 0;
+#deploy .col-sm-6 p {
+    font-size: 16px;
 }
-#deploy .col-sm-4 p {
-    font-size: 18px;
+#deploy .col-sm-6 {
+    margin-top: 15px;
+}
+#deploy .col-sm-4 {
+    margin-top: 15px;
 }
 #deploy h4 {
-    padding: 20px 0;
+    padding: 10px 0;
     font-weight: bold;
 }
 #deploy blockquote {
@@ -248,6 +249,7 @@ header {
 }
 #deploy p {
     font-size: 22px;
+    padding: 0 15px;
 }
 /* end Styling Deploy */
 
@@ -298,6 +300,7 @@ header {
         height: 36px;
         vertical-align: -webkit-baseline-middle;
     }
+
 }
 @media screen and (min-width: 1049px) {
     .show-md {
@@ -328,6 +331,10 @@ header {
     }
     #cont-buttons {
         margin-left: 10px;
+    }
+    .my-container {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
