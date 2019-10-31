@@ -352,10 +352,7 @@ header {
 /* end styling built */
 
 /* Styling Service */
-.overlay {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-}
+
 #service {
     padding: 80px 0;
     background-color: rgb(3, 27, 78);
@@ -363,6 +360,7 @@ header {
 #service h2 {
     color: white;
     font-size: 36px;
+    padding: 10px;
 }
 /* end styling Service */
 
@@ -380,7 +378,38 @@ header {
     color: white;
     font-weight: bold;
 }
+#service a:hover {
+    text-decoration: none;
+    color: #005fe6;
+    transition: 0.25s;
+}
+#service a {
+    color: #00d7d2;
+}
 /* end styling tables */
+
+/* styling get-started */
+#get-started {
+    padding: 35px 0;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+#get-started h2 {
+    color: white;
+}
+
+#get-started .btn.btn-default.my-account {
+    background: white;
+    padding: 12px 38px;
+}
+#get-started .btn.btn-default.my-account:hover {
+    background-color: hsla(0,0%,100%,.8);
+    transition: 0.25s;
+}
+/* end styling get-started */
+
 
 /* @media query */
 @media screen and (min-width: 321px) {
