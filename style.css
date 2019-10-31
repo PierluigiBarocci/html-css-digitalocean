@@ -264,7 +264,7 @@ header {
 #designed p {
     font-size: 22px;
     padding: 0 15px;
-    opacity; 0.8;
+    opacity: 0.8;
 }
 #designed p small {
     font-size: 18px;
@@ -387,6 +387,69 @@ header {
     color: #00d7d2;
 }
 /* end styling tables */
+
+/* Styling Love */
+#love {
+    padding: 80px 0;
+    color: rgb(85, 85, 85);
+}
+#love a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#love p {
+    font-size: 22px;
+    padding: 10px 15px;
+    opacity: 0.8;
+}
+#love p small {
+    font-size: 18px;
+}
+#love .list-unstyled.list-inline {
+    margin-top: 30px;
+}
+#rockerbox {
+    width: 85%;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 30px 45px 80px;
+    box-shadow: 0 2px 4px rgba(3,27,78,.1);
+}
+#rockerbox img {
+    max-height: 25px;
+}
+#rockerbox h3 {
+    padding: 15px 0;
+    opacity: 0.8;
+}
+#rockerbox p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#rockerbox p small {
+    font-size: 14px;
+}
+#rockerbox a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0069ff;
+
+}
+#rockerbox a:hover {
+    text-decoration: none;
+}
+/* #love img {
+    max-height: 478px;
+    padding: 0 50px;
+}
+#scroll-img {
+    margin: 35px 0;
+    position: relative;
+} */
+/* end styling love */
 
 /* styling get-started */
 #get-started {
