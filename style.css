@@ -492,6 +492,33 @@ header {
 }
 /* end styling get-started */
 
+/* Styling Footer */
+footer {
+    background-color: #010e28;
+    color: hsla(0,0%,100%,.5);
+    font-size: 14px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+/* #footer-bottom {
+    border-top: 1px solid hsla(0,0%,100%,.5);
+} */
+#footer-bottom a {
+    color: hsla(0,0%,100%,.5);
+}
+
+#footer-bottom i {
+    font-size: 24px;
+    padding: 0 10px;
+}
+#footer-bottom i:hover {
+    color: white;
+    transition: 0.25s;
+}
+#footer-bottom .col-md-6 {
+    padding: 60px 0;
+}
+/* end styling footer */
 
 /* @media query */
 @media screen and (min-width: 321px) {
