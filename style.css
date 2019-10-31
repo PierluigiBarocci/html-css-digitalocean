@@ -390,7 +390,7 @@ header {
 
 /* Styling Love */
 #love {
-    padding: 80px 0;
+    padding: 80px 0 120px;
     color: rgb(85, 85, 85);
 }
 #love a {
@@ -417,6 +417,8 @@ header {
     line-height: 1.5;
     padding: 30px 45px 80px;
     box-shadow: 0 2px 4px rgba(3,27,78,.1);
+    position: relative;
+    display: inline-block;
 }
 #rockerbox img {
     max-height: 25px;
@@ -441,14 +443,31 @@ header {
 #rockerbox a:hover {
     text-decoration: none;
 }
-/* #love img {
-    max-height: 478px;
-    padding: 0 50px;
+
+#love .my-personal-arrow.left.show-arrow,
+#love .my-personal-arrow.right.show-arrow {
+    display: none;
 }
-#scroll-img {
-    margin: 35px 0;
-    position: relative;
-} */
+#love .my-personal-arrow {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    opacity: 0.3;
+    position: absolute;
+}
+#love .my-personal-arrow.left {
+    left: -8%;
+}
+#love .my-personal-arrow.right {
+    color: #031b4e;
+    right: -8%;
+    opacity: 1;
+}
+#love .my-personal-arrow.right:hover {
+    color: #0069ff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
 /* end styling love */
 
 /* styling get-started */
@@ -506,6 +525,10 @@ header {
     }
     #scroll-img .my-personal-arrow.left.show-arrow,
     #scroll-img .my-personal-arrow.right.show-arrow {
+        display: inline-block;
+    }
+    #love .my-personal-arrow.left.show-arrow,
+    #love .my-personal-arrow.right.show-arrow {
         display: inline-block;
     }
 }
