@@ -500,9 +500,9 @@ footer {
     padding-bottom: 96px;
     padding-top: 96px;
 }
-/* #footer-bottom {
+#footer-bottom {
     border-top: 1px solid hsla(0,0%,100%,.5);
-} */
+}
 #footer-bottom a {
     color: hsla(0,0%,100%,.5);
 }
@@ -516,7 +516,21 @@ footer {
     transition: 0.25s;
 }
 #footer-bottom .col-md-6 {
-    padding: 60px 0;
+    padding-top: 60px;
+}
+#footer-top ul {
+    padding-bottom: 30px;
+}
+#footer-top h5 {
+    color: white;
+    font-size: 15px;
+}
+#footer-top li {
+    padding: 5px 0;
+}
+#footer-top li:hover {
+    color: white;
+    cursor: pointer;
 }
 /* end styling footer */
 
