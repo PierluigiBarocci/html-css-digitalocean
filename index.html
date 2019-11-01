@@ -11,7 +11,7 @@
     </head>
     <body>
         <header class="navbar-fixed-top">
-            <nav>
+            <nav class="show-md">
                 <div class="container-fluid">
                     <span id="new-button-green">New</span>
                     <a href="#">Fresh features and 1-Click Apps for DigitalOcean Kubernetes</a>
@@ -26,20 +26,20 @@
             <nav>
                 <div class="container-fluid">
                     <span id="logo-missing" class="navbar-left">Logo</span>
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown"><a href="#">Products <span class="caret"></span></a></li>
-                        <li><a href="#">Marketplace</a></li>
-                        <li><a href="#">Customers</a></li>
-                        <li><a href="#">Partners</a></li>
-                        <li class="dropdown"><a href="#">Community <span class="caret"></span></a></li>
-                        <li><a href="#">Pricing</a></li>
-                    </ul>
-                    <button type="button" class="btn btn-default navbar-right" id="header-bottom-btn">Sign Up</button>
+                        <ul class="nav navbar-nav show-md">
+                            <li class="dropdown"><a href="#">Products <span class="caret"></span></a></li>
+                            <li><a href="#">Marketplace</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Partners</a></li>
+                            <li class="dropdown"><a href="#">Community <span class="caret"></span></a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    <button type="button" class="btn btn-default navbar-right show-md" id="header-bottom-btn">Sign Up</button>
+                    <span class="navbar-right hidden-lg">
+                        <a href="#"><i id="top-hamburger" class="fas fa-bars"></i></a>
+                    </span>
                 </div>
             </nav>
-            <div class="col-xs-6 col-md-offset-4 text-right hidden-lg">
-                <a href="#"><i id="top-hamburger" class="fas fa-bars"></i></a>
-            </div>
         </header>
         <main>
             <section id="my-jumbo">
