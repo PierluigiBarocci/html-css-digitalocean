@@ -32,8 +32,41 @@ h4 {
     background-color: #f3f5f9;
 }
 
-/* styling header */
+/* header con navbar */
+header nav:first-child {
+    height: 40px;
+    border-bottom: 1px solid rgb(229, 232, 237);
+    color: rgba(85, 85, 85, 0.8);
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+header nav:first-child a {
+    color: rgba(85, 85, 85, 0.8);
+}
+header nav:first-child li {
+    margin: 0 12px;
+}
+header nav:first-child a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+#new-button-green {
+    background-color: #00d7d2;
+    border-radius: 5px;
+    color: #031b4e;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 9px;
+    border: none;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+/* end header con navbar */
 
+/* styling header */
+/*
 header {
     background-color: transparent;
 }
@@ -111,7 +144,7 @@ header {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.5);
     line-height: 90px;
-}
+} */
 /* end styling header */
 
 /* styling my-jumbo */
