@@ -16,6 +16,9 @@ h2 {
 h4 {
     color: #031b4e;
 }
+.navbar-right {
+    margin-right: 0;
+}
 .btn.btn-default {
     background-color: hsla(0,0%,100%,.8);
     border: none;
@@ -46,6 +49,7 @@ header nav:first-child a {
     color: rgba(85, 85, 85, 0.8);
 }
 header nav:first-child li {
+    cursor: pointer;
     margin: 0 12px;
 }
 header nav:first-child a:hover {
@@ -62,6 +66,42 @@ header nav:first-child a:hover {
     border: none;
     vertical-align: middle;
     margin-right: 15px;
+}
+header nav:nth-child(2) {
+    height: 65px;
+    color: rgb(3, 27, 78);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+header nav:nth-child(2) a {
+    color: rgb(3, 27, 78);
+}
+header nav:nth-child(2) a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+#header-bottom-btn {
+    background-color: transparent;
+    border: 1px solid #0069ff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 11px 16px 8px;
+}
+#header-bottom-btn:hover {
+    background-color: #0069ff;
+    color: white;
+    transition: 0.25s;
+}
+#logo-missing {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 40px 10px 10px;
 }
 /* end header con navbar */
 
@@ -637,7 +677,6 @@ footer {
         background-color: transparent;
         color: #0069ff;
         border: 1px solid #0069ff;
-        line-height: 40px;
     }
     header {
         height: 105px;
