@@ -5,7 +5,7 @@ a {
     display: none;
 }
 .hidden-lg {
-    display: block;
+    display: inline;
 }
 h2 {
     color: #031b4e;
@@ -15,6 +15,9 @@ h2 {
 }
 h4 {
     color: #031b4e;
+}
+.navbar-right {
+    margin-right: 0;
 }
 .btn.btn-default {
     background-color: hsla(0,0%,100%,.8);
@@ -32,65 +35,61 @@ h4 {
     background-color: #f3f5f9;
 }
 
-/* styling header */
-
+/* header con navbar */
 header {
     background-color: transparent;
 }
-
-#header-top {
+header nav:first-child {
     height: 40px;
-    padding: 0 15px;
     border-bottom: 1px solid rgb(229, 232, 237);
-    line-height: 40px;
+    color: rgba(85, 85, 85, 0.8);
+    padding: 10px;
+    margin-bottom: 0;
     font-size: 12px;
-}
-#header-top a {
-    color: rgba(3, 27, 78, 0.7);
     font-weight: bold;
-    margin-right: 12px;
 }
-#header-top a:hover {
-    text-decoration: none;
+header nav:first-child a {
+    color: rgba(85, 85, 85, 0.8);
+}
+header nav:first-child li {
+    cursor: pointer;
+    margin: 0 12px;
+}
+header nav:first-child a:hover {
     color: #0069ff;
+    text-decoration: none;
 }
-#header-top-btn {
+#new-button-green {
     background-color: #00d7d2;
     border-radius: 5px;
     color: #031b4e;
-    line-height: 1;
     padding: 4px 8px;
     text-align: center;
     font-size: 9px;
     border: none;
     vertical-align: middle;
-    margin-right: 12px;
-}
-#header-bottom {
-    height: 90px;
-    padding: 0 15px;
-    line-height: 40px;
-    font-size: 14px;
-}
-#header-bottom a {
-    color: rgb(3, 27, 78);
     margin-right: 15px;
+}
+header nav:nth-child(2) {
+    height: 90px;
+    color: rgb(3, 27, 78);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+header nav:nth-child(2) a {
+    color: rgb(3, 27, 78);
+}
+header nav:nth-child(2) a:hover {
+    text-decoration: none;
+    background-color: transparent;
 }
 #header-bottom-btn {
     background-color: transparent;
     border: 1px solid #0069ff;
-    border-radius: 5px;
-    color: #0069ff;
     cursor: pointer;
     font-weight: bold;
-    vertical-align: middle;
     padding: 11px 16px 8px;
-}
-#header-bottom a:hover {
-    text-decoration: none;
-}
-#header-bottom .header-items:hover {
-    color: #0069ff;
 }
 #header-bottom-btn:hover {
     background-color: #0069ff;
@@ -101,18 +100,22 @@ header {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    line-height: 90px;
-    padding: 10px 10px;
+    margin: 20px 40px 10px 10px;
 }
 #top-hamburger {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 90px;
+    line-height: 70px;
+    float: right;
 }
-/* end styling header */
+/* end header con navbar */
 
 /* styling my-jumbo */
 #my-jumbo {
@@ -597,14 +600,14 @@ footer {
     .navbar-fixed-top {
         position: fixed;
     }
-    #header-bottom {
+    header nav:nth-child(2) {
         height: 65px;
     }
     #logo-missing {
         background-color: transparent;
         color: #0069ff;
         border: 1px solid #0069ff;
-        line-height: 40px;
+        margin-top: 10px;
     }
     header {
         height: 105px;
